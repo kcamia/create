@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+  <link href="styles.css" rel="stylesheet" />
+  <script src="app.js"></script>
+
+  <title>create</title>
+</head>
+
+<body>
+  <h1 id="test">create</h1>
+
+  <div id="current-time">
+    <h2 class="header">current time</h2>
+
+    <div class="square">
+      <div class="digits" id="current-hr">00</div>
+      <div class="text">hours</div>
+    </div>
+
+    <div class="square">
+      <div class="digits" id="current-min">00</div>
+      <div class="text">minutes</div>
+    </div>
+
+    <div class="square">
+      <div class="digits" id="current-sec">00</div>
+      <div class="text">seconds</div>
+    </div>
+  </div>
+
+  <div id="set-time">
+    <h2 class="header">set timer</h2>
+
+    <div class="group">
+      <div id="pick-hr"></div>
+      <div class="text">hours</div>
+    </div>
+    <div class="group">
+      <div id="pick-min"></div>
+      <div class="text">minutes</div>
+    </div>
+    <div class="group">
+      <div id="pick-sec"></div>
+      <div class="text">seconds</div>
+    </div>
+
+    <div>
+      <input type="button" value="set" id="set"/>
+      <input type="button" value="reset" id="reset" disabled/>
+    </div>
+
+  </div>
+
+  <!-- <audio id="alarm-sound" loop>
+    <source src="alarm.mp3" type="audio/mp3">
+  </audio> -->
+</body>

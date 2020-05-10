@@ -1,0 +1,87 @@
+body {
+  background-color: rgba(38, 255, 103, 0.6);
+}
+
+#current-time {
+  font-family: fantasy;
+}
+
+#set-time {
+  font-family: fantasy;
+}
+
+/* current time box */
+
+#current-time {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(90, 173, 115, 0.8);
+}
+
+#current-time .header {
+  color: rgb(20, 43, 27);
+}
+
+#current-time .square {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+}
+
+#current-time .digits {
+  font-size: 25px;
+  background-color: rgb(51, 122, 73);
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+#current-time .text {
+  margin-top: 10px;
+}
+
+/* set time box */
+
+#set-time {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 5px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+#pick-hr, #pick-min, #pick-sec {
+  display: inline-block;
+  width: 40%;
+  padding: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#set-time select {
+  box-sizing: padding-box;
+  width: 100%;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+#set-time .group {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+#set, #reset {
+  box-sizing: padding-box;
+  width: 50%;
+  background-color: rgba(54, 74, 60, 0.5);
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+#set:disabled, #reset:disabled {
+  background-color: rgba(54, 74, 60, 0.3);
+}
