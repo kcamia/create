@@ -2,6 +2,12 @@ body {
   background-color: rgba(38, 255, 103, 0.6);
 }
 
+h1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 #current-time {
   font-family: fantasy;
 }
